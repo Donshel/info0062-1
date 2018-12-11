@@ -33,3 +33,7 @@ Where `args[]` could be `12 8`. Check the documentation for further information.
 ## Authors
 
 * **François Rozet** - [Donshel](https://github.com/Donshel)
+
+## Score
+
+This project received a score of 17/20.
