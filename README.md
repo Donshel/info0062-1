@@ -6,6 +6,30 @@ Project realized as part of the course *Object-oriented programming* given by **
 
 This project has been developed using the object-oriented language [Java](https://www.java.com/en/).
 
+Therefore, it is necessary to install a [Java Development Kit](https://www.oracle.com/technetwork/java/javase/downloads/index.html) to be able to run and compile this project. If you do so, don't forget to add the `bin` directory of your `jdk` installation to your computer environment path afterwards.
+
+Following command lines have to be run in the `GameOfLife` directory.
+
+### Compile
+
+```bash
+javac -d bin src/*.java
+```
+
+#### Produce documentation
+
+```bash
+javadoc -d javadoc src/*.java
+```
+
+### Run
+
+```bash
+java -cp bin GameOfLife args[]
+```
+
+Where `args[]` could be `12 8`. Check the documentation for further information.
+
 ## Authors
 
 * **François Rozet** - [Donshel](https://github.com/Donshel)
